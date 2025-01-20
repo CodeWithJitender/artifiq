@@ -14,13 +14,14 @@
         max-height: 200px;
         padding: 10px;
         box-sizing: border-box;
-        background: url(../img/bg.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
         display: flex;
         align-items: stretch;
         justify-content: space-between;
+        position: relative;
+        background: url(https://codewithjitender.github.io/artifiq/img/bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
       .profile {
         max-width: 213px;
@@ -29,7 +30,7 @@
         width: 213px;
       }
       
-      .details{
+      .details {
         align-self: center;
       }
       .details h3 {
@@ -39,33 +40,33 @@
         color: white;
         font-family: Arial, Helvetica, sans-serif;
       }
-      .details h3 .red{
+      .details h3 .red {
         color: #ED1C24;
       }
-      .details h5{
+      .details h5 {
         color: #ED1C24;
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
       }
-      .details ul{
+      .details ul {
         list-style-type: none;
       }
-      .details ul li:nth-child(2){
+      .details ul li:nth-child(2) {
         display: flex;
         margin-top: 30px;
         gap: 5px;
       }
-      .details ul li:nth-child(3){
+      .details ul li:nth-child(3) {
         display: flex;
         margin-top: 10px;
         gap: 5px;
       }
       .details ul li:nth-child(2) img,
-      .details ul li:nth-child(3) img{
+      .details ul li:nth-child(3) img {
         width: 30px;
       }
       .details ul li:nth-child(2) a,
-      .details ul li:nth-child(3) a{
+      .details ul li:nth-child(3) a {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 4px;
@@ -73,30 +74,33 @@
         text-decoration: none;
         font-size: 10px;
       }
-      .client{
+      .client {
         display: flex;
         margin-top: 20px;
       }
-      .client img{
+      .client img {
         height: 18px;
       }
-      .share{
-        display: flex; flex-direction: column;
+      .share {
+        display: flex;
+        flex-direction: column;
         align-items: end;
         justify-content: space-between;
       }
       .share img {
         width: 113px;
       }
-      .social img{
+      .social img {
         width: 22px;
       }
-      
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="profile"><img src="https://codewithjitender.github.io/artifiq/img/profile.png" alt="" /></div>
+      <!-- Background image is removed for email signature -->
+      <div class="profile">
+        <img src="https://codewithjitender.github.io/artifiq/img/profile.png" alt="Profile Image" />
+      </div>
       <div class="details">
         <ul>
           <li>
@@ -104,14 +108,18 @@
             <h5>Business Developer Executive</h5>
           </li>
           <li>
-            <div class="call"><img src="https://codewithjitender.github.io/artifiq/img/call.png" alt="" /></div>
+            <div class="call">
+              <img src="https://codewithjitender.github.io/artifiq/img/call.png" alt="Call Icon" />
+            </div>
             <div class="num">
               <div><a href="tel:(+1 ) 9735489897">(+1 ) 9735489897</a></div>
               <div><a href="tel:(+91) 9315799083">(+91) 9315799083</a></div>
             </div>
           </li>
           <li>
-            <div class="call"><img src="https://codewithjitender.github.io/artifiq/img/consult.png" alt="" /></div>
+            <div class="call">
+              <img src="https://codewithjitender.github.io/artifiq/img/consult.png" alt="Consult Icon" />
+            </div>
             <div class="num">
               <div><a href="tel:(+1 ) 9735489897">(+1 ) 9735489897</a></div>
               <div><a href="tel:(+91) 9315799083">(+91) 9315799083</a></div>
@@ -119,20 +127,22 @@
           </li>
           <li>
             <div class="client">
-              <img src="https://codewithjitender.github.io/artifiq/img/client-1.png" alt="" />
-              <img src="https://codewithjitender.github.io/artifiq/img/client-2.png" alt="" />
-              <img src="https://codewithjitender.github.io/artifiq/img/client-3.png" alt="" />
-              <img src="https://codewithjitender.github.io/artifiq/img/client-4.png" alt="" />
-              <img src="https://codewithjitender.github.io/artifiq/img/client-5.png" alt="" />
+              <img src="https://codewithjitender.github.io/artifiq/img/client-1.png" alt="Client 1" />
+              <img src="https://codewithjitender.github.io/artifiq/img/client-2.png" alt="Client 2" />
+              <img src="https://codewithjitender.github.io/artifiq/img/client-3.png" alt="Client 3" />
+              <img src="https://codewithjitender.github.io/artifiq/img/client-4.png" alt="Client 4" />
+              <img src="https://codewithjitender.github.io/artifiq/img/client-5.png" alt="Client 5" />
             </div>
           </li>
         </ul>
       </div>
       <div class="share">
-        <div class="logo"><img src="https://codewithjitender.github.io/artifiq/img/logo.png" alt="" /></div>
+        <div class="logo">
+          <img src="https://codewithjitender.github.io/artifiq/img/logo.png" alt="Logo" />
+        </div>
         <div class="social">
-          <a href=""><img src="https://codewithjitender.github.io/artifiq/img/linke.png" alt="" /></a>
-          <a href=""><img src="https://codewithjitender.github.io/artifiq/img/globe.png" alt="" /></a>
+          <a href=""><img src="https://codewithjitender.github.io/artifiq/img/linke.png" alt="LinkedIn" /></a>
+          <a href=""><img src="https://codewithjitender.github.io/artifiq/img/globe.png" alt="Website" /></a>
         </div>
       </div>
     </div>
