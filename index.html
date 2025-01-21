@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Email Signature</title>
     <style>
       * {
         padding: 0;
         margin: 0;
+      }
+      table {
+        width: 100%;
+        border-spacing: 0;
       }
       .container {
         max-width: 600px;
@@ -29,7 +33,7 @@
       .profile img {
         width: 213px;
       }
-      
+
       .details {
         align-self: center;
       }
@@ -81,70 +85,128 @@
       .client img {
         height: 18px;
       }
-      .share {
+      /* .share {
         display: flex;
         flex-direction: column;
         align-items: end;
         justify-content: space-between;
-      }
+      } */
       .share img {
         width: 113px;
       }
       .social img {
         width: 22px;
       }
+      .num{
+        margin-left: 2px;
+      }
     </style>
   </head>
   <body>
-    <div class="container">
-      <!-- Background image is removed for email signature -->
-      <div class="profile">
-        <img src="https://codewithjitender.github.io/artifiq/img/profile.png" alt="Profile Image" />
-      </div>
-      <div class="details">
-        <ul>
-          <li>
-            <h3><span class="red">Akshita</span> Bhandari</h3>
-            <h5>Business Developer Executive</h5>
-          </li>
-          <li>
-            <div class="call">
-              <img src="https://codewithjitender.github.io/artifiq/img/call.png" alt="Call Icon" />
-            </div>
-            <div class="num">
-              <div><a href="tel:(+1 ) 9735489897">(+1 ) 9735489897</a></div>
-              <div><a href="tel:(+91) 9315799083">(+91) 9315799083</a></div>
-            </div>
-          </li>
-          <li>
-            <div class="call">
-              <img src="https://codewithjitender.github.io/artifiq/img/consult.png" alt="Consult Icon" />
-            </div>
-            <div class="num">
-              <div><a href="tel:(+1 ) 9735489897">(+1 ) 9735489897</a></div>
-              <div><a href="tel:(+91) 9315799083">(+91) 9315799083</a></div>
-            </div>
-          </li>
-          <li>
-            <div class="client">
-              <img src="https://codewithjitender.github.io/artifiq/img/client-1.png" alt="Client 1" />
-              <img src="https://codewithjitender.github.io/artifiq/img/client-2.png" alt="Client 2" />
-              <img src="https://codewithjitender.github.io/artifiq/img/client-3.png" alt="Client 3" />
-              <img src="https://codewithjitender.github.io/artifiq/img/client-4.png" alt="Client 4" />
-              <img src="https://codewithjitender.github.io/artifiq/img/client-5.png" alt="Client 5" />
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="share">
-        <div class="logo">
-          <img src="https://codewithjitender.github.io/artifiq/img/logo.png" alt="Logo" />
-        </div>
-        <div class="social">
-          <a href=""><img src="https://codewithjitender.github.io/artifiq/img/linke.png" alt="LinkedIn" /></a>
-          <a href=""><img src="https://codewithjitender.github.io/artifiq/img/globe.png" alt="Website" /></a>
-        </div>
-      </div>
-    </div>
+    <!-- <table class="container">
+      <tr>
+        <td class="profile">
+          <img src="https://codewithjitender.github.io/artifiq/img/profile.png" alt="Profile Image" />
+        </td>
+        <td class="details">
+          <ul>
+            <li>
+              <h3><span class="red">Akshita</span> Bhandari</h3>
+              <h5>Business Developer Executive</h5>
+            </li>
+            <li>
+              <div class="call">
+                <img src="https://codewithjitender.github.io/artifiq/img/call.png" alt="Call Icon" />
+              </div>
+              <div class="num">
+                <div><a href="tel:(+1 ) 9735489897">(+1 ) 9735489897</a></div>
+                <div><a href="tel:(+91) 9315799083">(+91) 9315799083</a></div>
+              </div>
+            </li>
+            <li>
+              <div class="call">
+                <img src="https://codewithjitender.github.io/artifiq/img/consult.png" alt="Consult Icon" />
+              </div>
+              <div class="num">
+                <div><a href="tel:(+1 ) 9735489897">(+1 ) 9735489897</a></div>
+                <div><a href="tel:(+91) 9315799083">(+91) 9315799083</a></div>
+              </div>
+            </li>
+            <li>
+              <div class="client">
+                <img src="https://codewithjitender.github.io/artifiq/img/client-1.png" alt="Client 1" />
+                <img src="https://codewithjitender.github.io/artifiq/img/client-2.png" alt="Client 2" />
+                <img src="https://codewithjitender.github.io/artifiq/img/client-3.png" alt="Client 3" />
+                <img src="https://codewithjitender.github.io/artifiq/img/client-4.png" alt="Client 4" />
+                <img src="https://codewithjitender.github.io/artifiq/img/client-5.png" alt="Client 5" />
+              </div>
+            </li>
+          </ul>
+        </td>
+        <td class="share" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+          <div class="logo">
+            <img src="https://codewithjitender.github.io/artifiq/img/logo.png" alt="Logo" />
+          </div>
+          <div class="social">
+            <a href=""><img src="https://codewithjitender.github.io/artifiq/img/linke.png" alt="LinkedIn" /></a>
+            <a href=""><img src="https://codewithjitender.github.io/artifiq/img/globe.png" alt="Website" /></a>
+          </div>
+        </td>
+      </tr>
+    </table> -->
+    <table style="width: 100%; max-width: 600px; padding: 10px; background: url(https://codewithjitender.github.io/artifiq/img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;">
+      <tr>
+        <td>
+          <img src="https://codewithjitender.github.io/artifiq/img/profile.png" style="width: 100%; max-width: 213px;" alt="">
+        </td>
+        <td class="details">
+          <ul>
+            <li>
+              <h3><span class="red">Akshita</span> Bhandari</h3>
+              <h5>Business Developer Executive</h5>
+            </li>
+            <li>
+              <div class="call">
+                <img src="https://codewithjitender.github.io/artifiq/img/call.png" alt="Call Icon" />
+              </div>
+              <div class="num">
+                <div><a href="tel:(+1 ) 9735489897">(+1 ) 9735489897</a></div>
+                <div><a href="tel:(+91) 9315799083">(+91) 9315799083</a></div>
+              </div>
+            </li>
+            <li>
+              <div class="call">
+                <img src="https://codewithjitender.github.io/artifiq/img/consult.png" alt="Consult Icon" />
+              </div>
+              <div class="num">
+                <div><a href="tel:(+1 ) 9735489897">(+1 ) 9735489897</a></div>
+                <div><a href="tel:(+91) 9315799083">(+91) 9315799083</a></div>
+              </div>
+            </li>
+            <li>
+              <div class="client">
+                <img src="https://codewithjitender.github.io/artifiq/img/client-1.png" alt="Client 1" />
+                <img src="https://codewithjitender.github.io/artifiq/img/client-2.png" alt="Client 2" />
+                <img src="https://codewithjitender.github.io/artifiq/img/client-3.png" alt="Client 3" />
+                <img src="https://codewithjitender.github.io/artifiq/img/client-4.png" alt="Client 4" />
+                <img src="https://codewithjitender.github.io/artifiq/img/client-5.png" alt="Client 5" />
+              </div>
+            </li>
+          </ul>
+        </td>
+        <td class="share">
+          <div class="logo" style="margin-bottom: 130px;">
+            <img src="https://codewithjitender.github.io/artifiq/img/logo.png" alt="Logo" />
+          </div>
+          <div class="social" style="text-align: end;">
+            <a href="https://www.linkedin.com/company/artifiq/" target="_blank"><img src="https://codewithjitender.github.io/artifiq/img/linke.png" alt="LinkedIn" /></a>
+            <a href="https://www.artifiq.com/" target="_blank"><img src="https://codewithjitender.github.io/artifiq/img/globe.png" alt="Website" /></a>
+          </div>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
