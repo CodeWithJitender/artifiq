@@ -9474,3 +9474,9 @@ html .ui-button.ui-state-disabled:active {
     margin-left: auto;
   }
 }/*# sourceMappingURL=style.css.map */
+
+
+/* --------============== Custom by me ===============---------------- */
+.cs-iconbox.cs-style2 {
+  max-width: 500px;
+}
