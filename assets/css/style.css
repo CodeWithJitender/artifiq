@@ -9480,3 +9480,14 @@ html .ui-button.ui-state-disabled:active {
 .cs-iconbox.cs-style2 {
   max-width: 500px;
 }
+.cs-iconbox_icon{
+  max-width: 60px;
+}
+#team .cs-primary_color {
+  color: #000000;
+}
+#team .cs-member_info{
+  background: linear-gradient(to top, rgb(0, 0, 0) 0%, #00000040 100%);
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+}

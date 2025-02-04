@@ -227,6 +227,7 @@
           speed: speedVar,
           infinite: loopVar,
           autoplaySpeed: autoplaySpdVar,
+          slidesToShow:3,
           centerMode: centerVar,
           fade: fadeVar,
           prevArrow: $(this).find(".cs-left_arrow"),
@@ -239,28 +240,32 @@
             {
               breakpoint: 1600,
               settings: {
-                slidesToShow: lgPoint,
+                slidesToShow: 3,
+                // slidesToShow: lgPoint,
                 // slidesToScroll: lgPoint,
               },
             },
             {
               breakpoint: 1200,
               settings: {
-                slidesToShow: mdPoint,
+                slidesToShow: 3,
+                // slidesToShow: mdPoint,
                 // slidesToScroll: mdPoint,
               },
             },
             {
               breakpoint: 992,
               settings: {
-                slidesToShow: smPoint,
+                slidesToShow: 3,
+                // slidesToShow: smPoint,
                 // slidesToScroll: smPoint,
               },
             },
             {
               breakpoint: 768,
               settings: {
-                slidesToShow: xsPoing,
+                slidesToShow: 2,
+                // slidesToShow: xsPoing,
                 slidesToScroll: xsPoing,
               },
             },
