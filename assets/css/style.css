@@ -9491,3 +9491,6 @@ html .ui-button.ui-state-disabled:active {
   border-bottom-right-radius: 14px;
   border-bottom-left-radius: 14px;
 }
+.home-service .cs-iconbox_icon{
+  max-width: 80px;
+}
