@@ -4328,6 +4328,9 @@ label {
 .cs-fooer_main {
   padding: 95px 0 35px;
 }
+.cs-hero .cs-text_btn{
+  font-size: 26px;
+}
 
 .cs-footer_dark_bg_1 {
   background-color: #151515;
@@ -9493,4 +9496,8 @@ html .ui-button.ui-state-disabled:active {
 }
 .home-service .cs-iconbox_icon{
   max-width: 80px;
+}
+header .cs-newsletter.cs-style1 .cs-newsletter_btn{
+  position: relative;
+  top: 1px;
 }

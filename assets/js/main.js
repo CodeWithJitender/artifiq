@@ -141,21 +141,22 @@
       var windowTop = $window.scrollTop();
 
       if (windowTop >= headerHeight) {
+        $header.addClass("cs-gescout_show");
         $header.addClass("cs-gescout_sticky");
       } else {
         $header.removeClass("cs-gescout_sticky");
         $header.removeClass("cs-gescout_show");
       }
 
-      if ($header.hasClass("cs-gescout_sticky")) {
-        if (windowTop < lastScrollTop) {
-          $header.addClass("cs-gescout_show");
-        } else {
-          $header.removeClass("cs-gescout_show");
-        }
-      }
+      // if ($header.hasClass("cs-gescout_sticky")) {
+      //   if (windowTop < lastScrollTop) {
+      //     $header.addClass("cs-gescout_show");
+      //   } else {
+      //     $header.removeClass("cs-gescout_show");
+      //   }
+      // }
 
-      lastScrollTop = windowTop;
+      // lastScrollTop = windowTop;
     });
   }
 
